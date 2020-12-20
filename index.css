@@ -1,0 +1,37 @@
+html {                  box-sizing: border-box;  }
+*, *:before, *:after {  box-sizing: inherit;     }
+img {                   box-sizing: content-box; }
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: #ededed;
+}
+
+#masthead {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #00ffab;
+}
+    #masthead > .center {
+        width: 40%;
+        border: 0;
+        margin: 0 auto;
+        padding: 0.75em 0;
+        text-align: center;
+    }
+    #masthead > .center > #title {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 150%;
+    }
+
+.content {
+    margin: 0 2vw 2vh 2vw;
+    padding: 30px 30px;
+    height: 95vh;
+    background: #ffffff;
+    box-shadow: 0px -5px 5px 5px rgba(0, 0, 0, 0.2);
+}
